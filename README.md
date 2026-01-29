@@ -28,30 +28,20 @@ A fully responsive, modern **scientific calculator** built with **HTML, CSS, and
 
 ---
 
-## 📂 Project Structure
-
-```text
-├── index.html      # Main markup and calculator structure
-├── style.css       # Visual styling, variables, and animations
-├── script.js       # Core logic (RPN algorithm, event listeners)
-├── favicon.svg     # Tab icon
-└── README.md       # Project documentation
-Usage 🚀
+## Usage 🚀
 Clone the repository:
 
 Bash
-git clone [https://github.com/Anas-Shahzad/Advanced_Calculator.git](https://github.com/Anas-Shahzad/Advanced_Calculator.git)
-Open index.html in your web browser.
+git clone (https://github.com/Anas-Shahzad/Advanced_Calculator.git)
+1. Open index.html in your web browser.
+2. Use buttons or keyboard keys to perform calculations.
+3. Toggle scientific functions using the top-right button.
+4. Switch between radians and degrees using the Rad/Deg button.
+5. Use Inv to access inverse functions for trigonometry and logarithms.
 
-Use buttons or keyboard keys to perform calculations.
+---
 
-Toggle scientific functions using the top-right button.
-
-Switch between radians and degrees using the Rad/Deg button.
-
-Use Inv to access inverse functions for trigonometry and logarithms.
-
-👨‍💻 Author
+## 👨‍💻 Author
 Anas Shahzad
 
 GitHub: Anas-Shahzad
