@@ -30,12 +30,11 @@ A fully responsive, modern **scientific calculator** built with **HTML, CSS, and
 
 ## Project Structure 📂
 /calculator
-├─ index.html # Main HTML file
-├─ style.css # Stylesheet with responsive design
-├─ script.js # JavaScript for calculator functionality
-├─ favicon.svg # Optional favicon
-├─ README.md # Project documentation
-└─ screenshot.png # Optional screenshot for README
+├── index.html      # Main markup and calculator structure
+├── style.css       # Visual styling, variables, and animations
+├── script.js       # Core logic (RPN algorithm, event listeners)
+├── favicon.svg     # Tab icon
+└── README.md       # Project documentation
 
 ---
 
@@ -43,7 +42,7 @@ A fully responsive, modern **scientific calculator** built with **HTML, CSS, and
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/advanced-calculator.git
+   git clone https://github.com/yourusername/Advanced_Calculator.git
 2. Open index.html in your browser.
 3. Use buttons or keyboard keys to perform calculations.
 4. Toggle scientific functions using the top-right button.
