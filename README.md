@@ -28,8 +28,9 @@ A fully responsive, modern **scientific calculator** built with **HTML, CSS, and
 
 ---
 
-## Project Structure 📂
-/calculator
+## 📂 Project Structure
+
+```calculator
 ├── index.html      # Main markup and calculator structure
 ├── style.css       # Visual styling, variables, and animations
 ├── script.js       # Core logic (RPN algorithm, event listeners)
