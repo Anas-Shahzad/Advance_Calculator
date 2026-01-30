@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advance Calculator | By Anas</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="calculator-shell" data-scientific="false">
+    <header class="top-row">
+      <button class="icon-btn" id="historyBtn" aria-label="History" title="History" disabled>
+        <span aria-hidden="true">⏱</span>
+      </button>
+      <div class="spacer"></div>
+    </header>
+
+    <section class="display" aria-live="polite">
+      <div class="expression" id="expression">0</div>
+      <div class="result" id="result">&nbsp;</div>
+    </section>
+
+    <section class="mode-toggle-row">
+      <button class="toggle-sci-btn" id="toggleSci" aria-label="Switch calculator mode" title="Scientific keys" aria-expanded="false"><span aria-hidden="true"><></span></button>
+    </section>
+
+    <section class="scientific-panel" id="scientificPanel" aria-label="Scientific keys">
+      <div class="grid scientific-grid">
+        <button class="btn func" data-type="function" data-value="sqrt" aria-label="Square root">√</button>
+        <button class="btn func" data-type="constant" data-value="pi" aria-label="Pi">π</button>
+        <button class="btn func" data-type="operator" data-value="^" aria-label="Power">^</button>
+        <button class="btn func" data-type="function" data-value="factorial" aria-label="Factorial">!</button>
+
+        <button class="btn func" data-type="toggle-angle" id="angleToggle" aria-pressed="true" aria-label="Toggle degrees or radians">Rad</button>
+        <button class="btn func" data-type="function" data-value="sin" aria-label="Sine">sin</button>
+        <button class="btn func" data-type="function" data-value="cos" aria-label="Cosine">cos</button>
+        <button class="btn func" data-type="function" data-value="tan" aria-label="Tangent">tan</button>
+
+        <button class="btn func" data-type="toggle-inverse" id="inverseToggle" aria-pressed="false" aria-label="Toggle inverse functions">Inv</button>
+        <button class="btn func" data-type="constant" data-value="e" aria-label="Euler's number">e</button>
+        <button class="btn func" data-type="function" data-value="ln" aria-label="Natural log">ln</button>
+        <button class="btn func" data-type="function" data-value="log" aria-label="Log base 10">log</button>
+      </div>
+    </section>
+
+    <section class="keypad" aria-label="Calculator keys">
+      <div class="grid main-grid">
+        <button class="btn action" data-type="command" data-value="clear" aria-label="All clear">AC</button>
+        <button class="btn action" data-type="paren" data-value="(" aria-label="Open parenthesis">( )</button>
+        <button class="btn action" data-type="command" data-value="percent" aria-label="Percent">%</button>
+        <button class="btn op" data-type="operator" data-value="/" aria-label="Divide">÷</button>
+
+        <button class="btn num" data-type="number" data-value="7" aria-label="Seven">7</button>
+        <button class="btn num" data-type="number" data-value="8" aria-label="Eight">8</button>
+        <button class="btn num" data-type="number" data-value="9" aria-label="Nine">9</button>
+        <button class="btn op" data-type="operator" data-value="*" aria-label="Multiply">×</button>
+
+        <button class="btn num" data-type="number" data-value="4" aria-label="Four">4</button>
+        <button class="btn num" data-type="number" data-value="5" aria-label="Five">5</button>
+        <button class="btn num" data-type="number" data-value="6" aria-label="Six">6</button>
+        <button class="btn op" data-type="operator" data-value="-" aria-label="Minus">−</button>
+
+        <button class="btn num" data-type="number" data-value="1" aria-label="One">1</button>
+        <button class="btn num" data-type="number" data-value="2" aria-label="Two">2</button>
+        <button class="btn num" data-type="number" data-value="3" aria-label="Three">3</button>
+        <button class="btn op" data-type="operator" data-value="+" aria-label="Plus">+</button>
+
+        <button class="btn num" data-type="number" data-value="0" aria-label="Zero">0</button>
+        <button class="btn action" data-type="command" data-value="dot" aria-label="Decimal point">.</button>
+        <button class="btn action" data-type="command" data-value="backspace" aria-label="Backspace">⌫</button>
+        <button class="btn equals" data-type="command" data-value="equals" aria-label="Equals">=</button>
+      </div>
+    </section>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
 
