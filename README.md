@@ -44,6 +44,6 @@ git clone (https://github.com/Anas-Shahzad/Advanced_Calculator.git)
 ## 👨‍💻 Author
 Anas Shahzad
 
-GitHub: Anas-Shahzad
+GitHub: https://github.com/Anas-Shahzad
 
 LinkedIn: Anas Shahzad
